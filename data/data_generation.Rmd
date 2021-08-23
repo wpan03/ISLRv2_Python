@@ -1,0 +1,36 @@
+---
+title: "data_generation"
+author: "Wenyang Pan"
+date: "8/19/2021"
+output: html_document
+---
+
+## Setup
+```{r}
+library(tidyverse)
+library(ISLR2)
+```
+## Chapter 10
+```{r}
+head(Hitters, 2)
+```
+
+```{r}
+write_csv(Hitters, file='hitters.csv')
+```
+
+
+## Chapter 11: Survival Analysis
+```{r}
+head(BrainCancer, 2)
+```
+
+```{r}
+head(Publication, 2)
+```
+
+```{r}
+write_csv(BrainCancer, file='brain_cancer.csv')
+write_csv(Publication, file='publication.csv')
+```
+
