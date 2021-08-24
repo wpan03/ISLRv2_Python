@@ -138,3 +138,5 @@ Thumbs.db
 
 # Project Specific
 ISLRv2.pdf
+.wandb_api
+wandb
