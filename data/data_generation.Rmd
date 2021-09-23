@@ -10,6 +10,7 @@ output: html_document
 library(tidyverse)
 library(ISLR2)
 ```
+
 ## Chapter 10
 ```{r}
 head(Hitters, 2)
@@ -32,5 +33,13 @@ head(Publication, 2)
 ```{r}
 write_csv(BrainCancer, file='brain_cancer.csv')
 write_csv(Publication, file='publication.csv')
+```
+
+## Chapter 13: Multiple Testing 
+```{r}
+head(Fund, 2)
+```
+```{r}
+write_csv(Fund, file='fund.csv')
 ```
 
